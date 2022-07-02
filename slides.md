@@ -147,25 +147,158 @@ h1 {
 
 # Présentation du produit
 
-- Les 3 pilliers de la plateforme X-tract
-
-  - Inscription
-  - Planification organisation
-  - Sécurisation
+<img src="/img/Dashboard_X_Tract_Presentation_Du_Produit_Debut.png" class="w-50" />
 
 ---
 
-## Difficulté et évolution de la stack technique
+## Les 3 pilliers de la plateforme X-tract
+
+- Inscription
+- Planification organisation
+- Sécurisation
+
+<style>
+  ul {
+    @apply ml-10 mt-10;
+  }
+</style>
+
+<!-- Animate aparition of list + make it pretty + use icons of pillar from mdi -->
+
+---
+
+# Inscription
+
+---
+
+### Site d'événement
+
+- Gain de temps avec les outils no code
+
+<img src="/img/inscriptions_site_vitrine_webflow.gif" />
+
+---
+
+### Gestion d'inscription et des dossier médicaux
+
+- Mariage entre webflow, mailchimp, airtable et typeform
+- Temp de développement 2 semaines
+
+<img src="/img/Inscriptions_traitement_des_dossiers.png" class="w-120" />
+
+<!-- blur the name of the people -->
+
+---
+
+# Planification organisation
+
+<!-- Add pillar icon to the left add image to the big important title copy styles from slide 1 -->
+
+---
+
+### Fiche de poste
+
+- Gestion des bénévoles secouristes et staffeurs
+- Assignation des fiches de poste sur les points d'interets sur la carte
+
+<img src="/img/fiches_de_poste_visualisation.png" class="w-50 mt-10" />
+
+---
+
+### Demande de localisation
+
+- Localisation des utilisateurs d'application mobile
+  - Push notification pour accepter la demande
+- Localisation avec SMS
+  - Page de diffusion de la localisation
+
+<div class="grid grid-cols-2 gap-10">
+  <img src="/img/demandes_de_position_wabapp.png" class="mt-5" />
+  <img src="/img/partage_de_localisation.png" class="w-50 mt-5" />
+</div>
+
+<!-- image 1 needs to be croped at the bottom + the 2 image needs to be along side each other -->
+
+---
+
+### Partage de publication
+
+- Message d'organisationnel
+- Partage de PDF et Trace GPX
+
+<img src="/img/visualisation_des_publications.png" class="mt-5" />
+
+<!-- put image on the right side -->
+
+---
+
+# Sécurisation
+
+- But principal de l'application mobile
+- Organisateur notifié pour alerter les secouristes
+
+- Accident de raid hannibal
+- Détection de choc automatique
+
+<img src="/img/gestion_dalertes.png" class="mt-5" />
+
+<!-- accéléréromètre et gyroscope -->
+
+---
+
+# Difficulté et évolution de la stack technique
+
+<!-- put cool image behind it -->
+
+---
 
 ### Langage unique
+
+- Initialement Kotlin, Swift & Django
+- Difficulé de recrutement et de prise en main
+- Le choix de javascript et react
+
+<!-- Put icons of javascript & React -->
 
 ---
 
 ### Isolation
 
+- Problème de gestion d'état
+- Redux
+- Les actions de Redux ont inspirés la réflexion sur le modèle d'architecture du code
+
 ---
 
 ### 3 tier architecture
+
+- Presentation Tier (La présentation des données)
+- Buissness Logic Tier (Le traitement des données et la logique métier)
+- Data Tier (L'accès aux données persistantes)
+
+<img src="/img/TTA.png" class="w-50 mt-5 mx-auto" />
+
+Chaque couche communique uniquemeent avec ses voisins imédiats
+
+<!-- Adjust size of image -->
+
+---
+
+### Niveau de présentation
+
+- Components
+  - Librairie d'interface utilisateur (UI)
+  - Couche avec laquelle l'utilisateur intéragis
+- Actions
+  - Pont entre la couche de présentation et la couche de logique métier
+  - Purement déclarative
+  - Le seul but est d'appellé les bons services
+
+---
+
+## Niveau logique métier
+
+- Services
 
 ---
 
