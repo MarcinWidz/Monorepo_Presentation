@@ -30,57 +30,13 @@ src: ./chapters/introduction.md
 src: ./chapters/company.md
 ---
 
-# Présentation du produit
-
-<img src="/img/Dashboard_X_Tract_Presentation_Du_Produit_Debut.png" class="w-50" />
-
+---
+src: ./chapters/inscription.md
 ---
 
-## Les 3 pilliers de la plateforme X-tract
-
-- Inscription
-- Planification organisation
-- Sécurisation
-
-<style>
-  ul {
-    @apply ml-10 mt-10;
-  }
-</style>
-
-<!-- Animate aparition of list + make it pretty + use icons of pillar from mdi -->
-
 ---
-
-# Inscription
-
+src: ./chapters/gestion.md
 ---
-
-### Site d'événement
-
-- Gain de temps avec les outils no code
-
-<img src="/img/inscriptions_site_vitrine_webflow.gif" />
-
----
-
-### Gestion d'inscription et des dossier médicaux
-
-- Mariage entre webflow, mailchimp, airtable et typeform
-- Temp de développement 2 semaines
-
-<img src="/img/Inscriptions_traitement_des_dossiers.png" class="w-120" />
-
-<!-- blur the name of the people -->
-
----
-
-# Planification organisation
-
-<!-- Add pillar icon to the left add image to the big important title copy styles from slide 1 -->
-
----
-
 ### Fiche de poste
 
 - Gestion des bénévoles secouristes et staffeurs

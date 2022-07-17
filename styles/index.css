@@ -6,12 +6,19 @@ h1 {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+  font-size: 4rem;
 }
 
 .flex-end-div {
     display:flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: center;
+}
+.flex-start-div {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
 }
 .flex-center-div {
